@@ -1,0 +1,3 @@
+gcc -o producer producer.c client.c sem_utl.c
+gcc -o consumer consumer.c client.c sem_utl.c
+gcc -o server server.c
